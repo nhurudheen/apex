@@ -24,6 +24,7 @@ html body .font-italic {
     font-style: italic
 }
 
+
 body,
 html {
     width: 100%;
@@ -84,6 +85,30 @@ p a {
 
 a {
     color: #334e6f
+}
+
+.deengif{
+    height: 450px;
+    margin-top: 50px;
+    margin-right:10px;
+    
+}
+.deen_padding_lg{
+    padding: 50px 20px;
+}
+.deen_padding_sm{
+    padding: 0px 20px;
+}
+.con-top{
+    margin-top: -70px;
+}
+.con-small{
+    margin-top: -30px;
+}
+
+.footer_img img{
+    height: 80px;
+    width:220px;
 }
 
 a,
@@ -2717,7 +2742,7 @@ nav.navbar.bootsnav ul.nav>li>a.btn-signup.red-btn {
     padding: 8px 11px;
     color: #fff !important;
     border-radius: 5px;
-    margin-top: 13px;
+    margin-top: 18px;
     font-weight: 600;
     font-size:14px;
 }
@@ -5025,10 +5050,11 @@ span.featured-tour {
     padding-top: 10px;
     line-height: 24px;
     text-align: justify;
+    text-transform: none;
 }
 
 .hotel-ellipsis h4 {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -6455,6 +6481,7 @@ ul.coming-social li a {
     line-height: 1.9;
     font-family: Montserrat, sans-serif;
     text-align: justify;
+    text-transform: none;
 }
 
 .guide-container {
