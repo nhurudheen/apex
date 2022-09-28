@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Tour & Travel Bootstrap Template</title>
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="assets/plugins/css/plugins.css">
+
+	<!-- Custom style -->
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/responsiveness.css" rel="stylesheet">
+	<link id="jssDefault" rel="stylesheet" href="assets/css/skins/default.css">
+
+</head>
+
+<body>
+
+	<!-- ======================= Start Navigation ===================== -->
+	<nav class="navbar navbar-default navbar-mobile navbar-fixed light bootsnav padd-bot-10">
+		<div class="container">
+
+			<!-- Start Logo Header Navigation -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand" href="#" style="margin-top: -8px ;">
+					<img src="assets/img/image 5.png" class="logo logo-display" alt="">
+					<img src="assets/img/image 5.png" class="logo logo-scrolled" alt="">
+				</a>
+
+			</div>
+			<!-- End Logo Header Navigation -->
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-menu">
+
+				<ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
+
+
+
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown dash-link"><a href="#" class="dropdown-toggle"><img src="assets/img/user.png"
+								class="img-responsive avatar" alt="" />Hi, Admin</a>
+						<ul class="dropdown-menu left-nav">
+							<li><a href="dashboard.html">Dashboard</a></li>
+							<li><a href="http://themezhub.com/">My Profile</a></li>
+							<li><a href="login.html">Log Out</a></li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<!-- ======================= End Navigation ===================== -->
+
+
+	<!-- ======================= Start Dashboard ===================== -->
+	<section class="dashboard gray-bg padd-0 mrg-top-50">
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-lg-2 col-md-2 col-sm-3 dashboard-bg">
+					<!-- /. NAV TOP  -->
+					<nav class="navbar navbar-side">
+						<!-- Start Logo Header Navigation -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+								data-target="#dashboard-menu">
+								<i class="fa fa-bars"></i>
+							</button>
+
+						</div>
+						<div class="collapse sidebar-collapse" id="dashboard-menu">
+							<div class="profile-wrapper">
+								<div class="profile-wrapper-thumb">
+									<img src="assets/img/user.png" class="img-responsive img-circle" alt="" />
+									<span class="dashboard-user-status bg-success"></span>
+								</div>
+								<h4>Apex Admin</h4>
+							</div>
+							<ul class="nav" id="main-menu">
+
+								<li class="active">
+									<a href="#"><i class="fa fa-dashboard" aria-hidden="true"></i>Dashboard</a>
+								</li>
+
+								<li>
+									<a href="#"><i class="ti-package" aria-hidden="true"></i>Packages</a>
+								</li>
+								<li>
+									<a href="#"><i class="ti-harddrives" aria-hidden="true"></i>Deposit</a>
+								</li>
+								<li>
+									<a href="#"><i class="ti-user" aria-hidden="true"></i>Email Subscribers</a>
+								</li>
+								<li>
+									<a href="#"><i class="ti-email" aria-hidden="true"></i>Messages</a>
+								</li>
+
+
+								<li class="log-off">
+									<a href="login.html"><i class="fa fa-power-off" aria-hidden="true"></i>Logout</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<!-- /. NAV SIDE  -->
+				</div>
+
+				<div class="col-lg-10 col-md-10 col-sm-9 col-lg-push-2 col-md-push-2 col-sm-push-3">
+					<div class="row mrg-0 mrg-top-20">
+						<div class="tr-single-box">
+							<div class="tr-single-header">
+								<h3 class="dashboard-title">Apex Admin Dashboard</h3>
+							</div>
+							<div class="tr-single-body">
+
+								<!-- row -->
+								<div class="row">
+									<div class="col-md-3 col-sm-6">
+										<div class="widget simple-widget">
+											<div class="rwidget-caption info">
+												<div class="row">
+													<div class="col-xs-4 padd-r-0">
+														<i class="cl-info icon ti-package"></i>
+													</div>
+													<div class="col-xs-8">
+														<div class="widget-detail">
+															<h3>372</h3>
+															<span>Packages</span>
+														</div>
+													</div>
+													<div class="col-xs-12">
+														<div class="widget-line">
+															<span style="width:25%;"
+																class="bg-info widget-horigental-line"></span>
+														</div>
+
+
+													</div>
+												</div>
+											</div>
+											<div class="message-body padd-top-20" style="margin-bottom: -30px;">
+												<div class="message-body-heading">
+													<h5><a><span class="bg-success " data-toggle="modal" data-target="#PackageModal">Add New
+																Package</span></a> <a href=""><span
+																class="bg-warning ">View More</span></a></h5>
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="widget simple-widget">
+											<div class="widget-caption danger">
+												<div class="row">
+													<div class="col-xs-4 padd-r-0">
+														<i class="cl-danger icon ti-harddrives"></i>
+													</div>
+													<div class="col-xs-8">
+														<div class="widget-detail">
+															<h3>412</h3>
+															<span>Deposit</span>
+														</div>
+													</div>
+													<div class="col-xs-12">
+														<div class="widget-line">
+															<span style="width:50%;"
+																class="bg-danger widget-horigental-line"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="message-body padd-top-20" style="margin-bottom: -30px;">
+												<div class="message-body-heading">
+													<h5><a><span class="bg-danger float-right" data-toggle="modal"
+																data-target="#exampleModalCenter">Add New
+																Deposit</span></a> <a href=""><span
+																class="bg-warning ">View More</span></a></h5>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="widget simple-widget">
+											<div class="widget-caption warning">
+												<div class="row">
+													<div class="col-xs-4 padd-r-0">
+														<i class="cl-success icon ti-user"></i>
+													</div>
+													<div class="col-xs-8">
+														<div class="widget-detail">
+															<h3>870</h3>
+															<span>Email Subscribers</span>
+														</div>
+													</div>
+													<div class="col-xs-12">
+														<div class="widget-line">
+															<span style="width:75%;"
+																class="bg-success widget-horigental-line"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="message-body padd-top-20" style="margin-bottom: -30px;">
+												<div class="message-body-heading">
+													<h5> <a href=""><span class="bg-success ">View More</span></a></h5>
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="widget simple-widget">
+											<div class="widget-caption purple">
+												<div class="row">
+													<div class="col-xs-4 padd-r-0">
+														<i class="cl-purple icon ti-email"></i>
+													</div>
+													<div class="col-xs-8">
+														<div class="widget-detail">
+															<h3>4770</h3>
+															<span>Messages</span>
+														</div>
+													</div>
+													<div class="col-xs-12">
+														<div class="widget-line">
+															<span style="width:95%;"
+																class="bg-purple widget-horigental-line"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="message-body padd-top-20" style="margin-bottom: -30px;">
+												<div class="message-body-heading">
+													<h5> <a href=""><span class="bg-purple ">View More</span></a></h5>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-8 col-sm-12">
+										<div class="tr-single-box">
+											<div class="tr-single-header">
+												<h4 class="mb-0"><b>Recent Package information</b></h4>
+											</div>
+											<div class="tr-single-body">
+												<div class="table-responsive">
+													<table class="table table-striped table-hover">
+														<thead>
+															<tr>
+																<th>SN</th>
+																<th>Package ID</th>
+																<th>Client Name</th>
+																<th>Current Phase</th>
+																<th>Location</th>
+																<th>Action</th>
+															</tr>
+														</thead>
+
+														<tbody>
+															<!-- tr -->
+															<tr>
+																<td>
+																	<a><b>1</b></a>
+																</td>
+																<td>
+
+																	<b>
+
+																		10-12-2018<span>BA213548</span>
+																	</b>
+																</td>
+																<td>
+																	<a><b>Faniyi Nurudeen</b></a>
+																</td>
+																<td>
+																	<a>Custom Duty</a>
+																</td>
+																<td>To: <b>NewYork</b><br>From:
+																	<span><b>London</b></span></td>
+
+																<td>
+																	<a href="#" class="tbl-action settings"
+																		title="Settings" data-toggle="tooltip"><i
+																			class="ti-pencil"></i></a>
+																	<a href="#" class="tbl-action bg-danger"
+																		title="Delete" data-toggle="tooltip"><i
+																			class="ti-trash"></i></a>
+																</td>
+															</tr>
+
+															<tr>
+																<td>
+																	<a><b>1</b></a>
+																</td>
+																<td>
+
+																	<b>
+
+																		10-12-2018<span>BA213548</span>
+																	</b>
+																</td>
+																<td>
+																	<a><b>Faniyi Nurudeen</b></a>
+																</td>
+																<td>
+																	<a>Custom Duty</a>
+																</td>
+																<td>To: <b>NewYork</b><br>From:
+																	<span><b>London</b></span></td>
+
+																<td>
+																	<a href="#" class="tbl-action settings"
+																		title="Settings" data-toggle="tooltip"><i
+																			class="ti-pencil"></i></a>
+																	<a href="#" class="tbl-action bg-danger"
+																		title="Delete" data-toggle="tooltip"><i
+																			class="ti-trash"></i></a>
+																</td>
+															</tr>
+
+															<tr>
+																<td>
+																	<a><b>1</b></a>
+																</td>
+																<td>
+
+																	<b>
+
+																		10-12-2018<span>BA213548</span>
+																	</b>
+																</td>
+																<td>
+																	<a><b>Faniyi Nurudeen</b></a>
+																</td>
+																<td>
+																	<a>Custom Duty</a>
+																</td>
+																<td>To: <b>NewYork</b><br>From:
+																	<span><b>London</b></span></td>
+
+																<td>
+																	<a href="#" class="tbl-action settings"
+																		title="Settings" data-toggle="tooltip"><i
+																			class="ti-pencil"></i></a>
+																	<a href="#" class="tbl-action bg-danger"
+																		title="Delete" data-toggle="tooltip"><i
+																			class="ti-trash"></i></a>
+																</td>
+															</tr>
+
+															<tr>
+																<td>
+																	<a><b>1</b></a>
+																</td>
+																<td>
+
+																	<b>
+
+																		10-12-2018<span>BA213548</span>
+																	</b>
+																</td>
+																<td>
+																	<a><b>Faniyi Nurudeen</b></a>
+																</td>
+																<td>
+																	<a>Custom Duty</a>
+																</td>
+																<td>To: <b>NewYork</b><br>From:
+																	<span><b>London</b></span></td>
+
+																<td>
+																	<a href="#" class="tbl-action settings"
+																		title="Settings" data-toggle="tooltip"><i
+																			class="ti-pencil"></i></a>
+																	<a href="#" class="tbl-action bg-danger"
+																		title="Delete" data-toggle="tooltip"><i
+																			class="ti-trash"></i></a>
+																</td>
+															</tr>
+
+															<tr>
+																<td>
+																	<a><b>1</b></a>
+																</td>
+																<td>
+
+																	<b>
+
+																		10-12-2018<span>BA213548</span>
+																	</b>
+																</td>
+																<td>
+																	<a><b>Faniyi Nurudeen</b></a>
+																</td>
+																<td>
+																	<a>Custom Duty</a>
+																</td>
+																<td>To: <b>NewYork</b><br>From:
+																	<span><b>London</b></span></td>
+
+																<td>
+																	<a href="#" class="tbl-action settings"
+																		title="Settings" data-toggle="tooltip"><i
+																			class="ti-pencil"></i></a>
+																	<a href="#" class="tbl-action bg-danger"
+																		title="Delete" data-toggle="tooltip"><i
+																			class="ti-trash"></i></a>
+																</td>
+															</tr>
+
+
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-4 col-sm-12">
+										<div class="tr-single-box">
+											<div class="tr-single-header">
+												<h5><b>Recent Subscribers</b></h5>
+											</div>
+											<div class="ground-list ground-list-hove">
+												<div class="ground ground-single-list">
+													<a href="#">
+														<img class="ground-avatar" src="assets/img/usersub.png"
+															alt="...">
+														<span class="profile-status bg-online pull-right"></span>
+													</a>
+
+													<div class="ground-content">
+														<h6><a href="#">Maryam Amiri</a></h6>
+														<small class="text-fade">Co-Founder</small>
+													</div>
+
+													<div class="ground-right">
+														<span class="small">January 24, 2010</span>
+													</div>
+												</div>
+
+												<div class="ground ground-single-list">
+													<a href="#">
+														<img class="ground-avatar" src="assets/img/usersub.png"
+															alt="...">
+														<span class="profile-status bg-online pull-right"></span>
+													</a>
+
+													<div class="ground-content">
+														<h6><a href="#">Maryam Amiri</a></h6>
+														<small class="text-fade">Co-Founder</small>
+													</div>
+
+													<div class="ground-right">
+														<span class="small">January 24, 2010</span>
+													</div>
+												</div>
+
+												<div class="ground ground-single-list">
+													<a href="#">
+														<img class="ground-avatar" src="assets/img/usersub.png"
+															alt="...">
+														<span class="profile-status bg-online pull-right"></span>
+													</a>
+
+													<div class="ground-content">
+														<h6><a href="#">Maryam Amiri</a></h6>
+														<small class="text-fade">Co-Founder</small>
+													</div>
+
+													<div class="ground-right">
+														<span class="small">January 24, 2010</span>
+													</div>
+												</div>
+
+												<div class="ground ground-single-list">
+													<a href="#">
+														<img class="ground-avatar" src="assets/img/usersub.png"
+															alt="...">
+														<span class="profile-status bg-online pull-right"></span>
+													</a>
+
+													<div class="ground-content">
+														<h6><a href="#">Maryam Amiri</a></h6>
+														<small class="text-fade">Co-Founder</small>
+													</div>
+
+													<div class="ground-right">
+														<span class="small">January 24, 2010</span>
+													</div>
+												</div>
+
+												<div class="ground ground-single-list">
+													<a href="#">
+														<img class="ground-avatar" src="assets/img/usersub.png"
+															alt="...">
+														<span class="profile-status bg-online pull-right"></span>
+													</a>
+
+													<div class="ground-content">
+														<h6><a href="#">Maryam Amiri</a></h6>
+														<small class="text-fade">Co-Founder</small>
+													</div>
+
+													<div class="ground-right">
+														<span class="small">January 24, 2010</span>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /row -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<div class="col-xl-4 col-md-6">
+		<div class="card">
+			<div class="card-body">
+				<div id="exampleModalCenter" class="modal fade" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalCenterTitle"><b>Add New Deposit</b></h5>
+							</div>
+							<div class="modal-body">
+								<form action="">
+									<p>
+										<label>First Name</label>
+										<input type="text" id="firstname" class="form-control" value="Shaurya" name="firstname">
+									</p>
+									<div class="form-group">
+										<label >Define currency:</label>
+										<div>
+											<div class="fl-box">
+												<select class="form-control wide">
+													<option>$ - US Dollar</option>
+													<option>$ - Canadian Dollar</option>
+													<option>$ - Australian Dollar</option>
+													<option>€ - Euro</option>
+													<option>£ - Pound Sterling</option>
+													<option>¥ - Japanese Yen</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">
+
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-6">
+											<button type="button"
+												class="btn btn-sm  btn-success float-left">ADD
+												NEW</button>
+										</div>
+										<div class="col-md-6">
+											<button type="button" data-dismiss="modal"
+												aria-label="Close"
+												class="btn btn-sm  btn-danger">Cancel</button>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xl-4 col-md-6">
+		<div class="card">
+			<div class="card-body">
+				<div id="PackageModal" class="modal fade" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalCenterTitle"><b>Add New Package</b></h5>
+							</div>
+							<div class="modal-body">
+								<form action="">
+									<p>
+										<label>First Name</label>
+										<input type="text" id="firstname" class="form-control" value="Shaurya" name="firstname">
+									</p>
+									<div class="form-group">
+										<label >Define currency:</label>
+										<div>
+											<div class="fl-box">
+												<select class="form-control wide">
+													<option>$ - US Dollar</option>
+													<option>$ - Canadian Dollar</option>
+													<option>$ - Australian Dollar</option>
+													<option>€ - Euro</option>
+													<option>£ - Pound Sterling</option>
+													<option>¥ - Japanese Yen</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">
+
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-6">
+											<button type="button"
+												class="btn btn-sm  btn-success float-left">ADD
+												NEW</button>
+										</div>
+										<div class="col-md-6">
+											<button type="button" data-dismiss="modal"
+												aria-label="Close"
+												class="btn btn-sm  btn-danger">Cancel</button>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Switcher -->
+
+	<!-- /Switcher -->
+
+
+	<!-- =================== START JAVASCRIPT ================== -->
+	<script src="assets/plugins/js/jquery.min.js"></script>
+	<script src="assets/plugins/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/js/viewportchecker.js"></script>
+	<script src="assets/plugins/js/bootsnav.js"></script>
+	<script src="assets/plugins/js/slick.min.js"></script>
+	<script src="assets/plugins/js/jquery.nice-select.min.js"></script>
+	<script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+	<script src="assets/plugins/js/jquery.downCount.js"></script>
+	<script src="assets/plugins/js/freshslider.1.0.0.js"></script>
+	<script src="assets/plugins/js/moment.min.js"></script>
+	<script src="assets/plugins/js/daterangepicker.js"></script>
+	<script src="assets/plugins/js/wysihtml5-0.3.0.js"></script>
+	<script src="assets/plugins/js/bootstrap-wysihtml5.js"></script>
+
+	<!-- Dashboard Js -->
+	<script src="assets/plugins/js/jquery.slimscroll.min.js"></script>
+	<script src="assets/plugins/js/jquery.metisMenu.js"></script>
+	<script src="assets/plugins/js/jquery.easing.min.js"></script>
+	<script src="assets/plugins/js/raphael.min.js"></script>
+	<script src="assets/plugins/js/morris.min.js"></script>
+	<script src="assets/js/chart.js"></script>
+
+	<!-- Custom Js -->
+	<script src="assets/js/custom.js"></script>
+
+	<script src="assets/js/jQuery.style.switcher.js"></script>
+	<script>
+		function openRightMenu() {
+			document.getElementById("rightMenu").style.display = "block";
+		}
+		function closeRightMenu() {
+			document.getElementById("rightMenu").style.display = "none";
+		}
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#styleOptions').styleSwitcher();
+		});
+	</script>
+
+</body>
+
+</html>
